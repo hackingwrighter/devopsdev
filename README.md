@@ -14,7 +14,11 @@ Git Commands
 |`git branch`|to know about branch|
 |`git branch -M main`|to rename the branch name|
 |`git push orign main`| push to main branch which is in host|
-
+|`git reset <-filename->`|backword stage|
+|`git reset`| apply for all|
+|`git reset HEAD~1`| it's use when your host is one-step ahed to your local +1 (HEAD indicate latest commit) HEAD-1 |
+|`git reset <-commit hash->`| git log cmd help you to get hash NO|
+|`git reset --hard <-commit hash->`| delet all commit and stage from every where |
 ### MERGE CODE:
 
 | Command | Description |
